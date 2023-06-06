@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bentham&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+.artist-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.back-button-item {
+  margin-left: auto;
+}
+
+button {
+  /* Removes browser styling */
+  appearance: none;
+  border: none;
+  font-size: 24px;
+  font-family: 'Creepster', cursive;
+
+  /* Units scale with font-size */
+  border-radius: 2em;
+  padding: 0.75em 1em;
+
+  background: rgb(38, 38, 179);
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: pink;
+}
+
+.name-item {
+  margin-left: auto;
+}
+
+.name {
+  font-family: 'Creepster', cursive;
+  display: inline-flex;
+  color: white;
+  font-size: 80px;
+  padding: 15px;
+}
+
+.empty-item {
+  margin-left: auto;
+}
+
+.empty-item-last {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content {
+  font-family: 'Bentham', serif;
+  color: white;
+  font-size: 14px;
+  margin-left: 25px;
+  margin-right: 25px;
+}

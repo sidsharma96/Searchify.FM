@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Bayon&display=swap');
+
+.heading {
+  font-family: 'Bayon', sans-serif;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.albumContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.albumName {
+  font-family: 'Bayon', sans-serif;
+  max-width: 250px;
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.albumLink {
+  text-decoration: none;
+  color: white;
+}
+
+.albumLink:hover {
+  color: lightblue;
+}
