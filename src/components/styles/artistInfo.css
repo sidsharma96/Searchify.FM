@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bentham&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .artist-container {
   display: flex;
   flex-direction: row;
@@ -12,7 +17,7 @@
   margin-left: auto;
 }
 
-button {
+.search-button {
   /* Removes browser styling */
   appearance: none;
   border: none;
@@ -59,4 +64,66 @@ button:hover {
   font-size: 14px;
   margin-left: 25px;
   margin-right: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+  .artist-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .back-button-item {
+    margin-left: auto;
+  }
+
+  .search-button {
+    /* Removes browser styling */
+    appearance: none;
+    border: none;
+    font-size: 14px;
+    font-family: 'Creepster', cursive;
+
+    /* Units scale with font-size */
+    border-radius: 2em;
+    padding: 0.75em 1em;
+
+    background: rgb(38, 38, 179);
+    color: white;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background: pink;
+  }
+
+  .name-item {
+    margin-left: auto;
+  }
+
+  .name {
+    font-family: 'Creepster', cursive;
+    display: inline-flex;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    max-width: 200px;
+  }
+
+  .empty-item {
+    margin-left: auto;
+  }
+
+  .empty-item-last {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .content {
+    font-family: 'Bentham', serif;
+    color: white;
+    font-size: 14px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
 }

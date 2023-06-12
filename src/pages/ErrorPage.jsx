@@ -12,7 +12,7 @@ const ErrorPage = () => {
       <div className='back-container'>
         <div className='button-item'>
           <Link to='/'>
-            <button>{backText}</button>
+            <button className='error-search-button'>{backText}</button>
           </Link>
         </div>
         <div className='empty-item'></div>

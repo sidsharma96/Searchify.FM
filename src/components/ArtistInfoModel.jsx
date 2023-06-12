@@ -24,7 +24,7 @@ const ArtistInfoModel = ({ search }) => {
       <div className='artist-container'>
         <div className='back-button-item'>
           <Link to='/'>
-            <button>{backText}</button>
+            <button className='search-button'>{backText}</button>
           </Link>
         </div>
         <div className='name-item'>
