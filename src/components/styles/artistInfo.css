@@ -47,6 +47,7 @@ button:hover {
   color: white;
   font-size: 80px;
   padding: 15px;
+  max-width: 600px;
 }
 
 .empty-item {
